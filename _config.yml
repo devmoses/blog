@@ -22,7 +22,7 @@ title: m13t Blog
 email: moses.thipparthi@yahoo.com
 author: Moses Thipparthi
 description: >- # this means to ignore newlines until "baseurl:"
-  Moses Thipparthi's Official blog on technology, process, experiences and other bits and bytes of his life.
+  Moses Thipparthi's official blog on technology, process, experiences and other bits and bytes of his life.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://devmoses.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mosesthipparthi
@@ -32,6 +32,8 @@ github_username:  devmoses
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
